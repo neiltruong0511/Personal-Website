@@ -1,0 +1,72 @@
+font-family: Arial, sans-serif; → Chọn font chữ Arial hoặc Sans-serif nếu Arial không có.
+
+margin: 0; padding: 0; → Loại bỏ khoảng cách mặc định của trình duyệt.
+
+text-align: center; → Căn giữa nội dung.
+
+background-color: #f5f5f5; → Màu nền xám nhạt.
+
+transition: background-color 0.3s ease-in-out; → Làm hiệu ứng đổi màu nền mượt hơn
+
+
+
+
+background-color: #007bff; → Đặt màu nền xanh dương.
+
+color: white; → Đặt chữ màu trắng.
+
+padding: 20px 0; → Thêm khoảng cách trên/dưới header.
+
+font-size: 2em; → Tăng kích thước chữ tiêu đề.
+
+
+
+
+
+
+.about, .contact → Định dạng chung cho phần "Về tôi" và "Liên hệ".
+
+padding: 20px; → Tạo khoảng cách bên trong.
+
+margin: 20px auto; → Căn giữa và tạo khoảng cách xung quanh.
+
+max-width: 600px; → Giới hạn chiều rộng tối đa 600px.
+
+background: white; → Đặt màu nền trắng.
+
+border-radius: 10px; → Bo góc nhẹ.
+
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); → Đổ bóng nhẹ.
+
+h2 { color: #007bff; } → Đổi màu tiêu đề thành xanh dương.
+
+
+
+
+margin: 20px; → Thêm khoảng cách giữa nút với các phần khác.
+
+padding: 10px 20px; → Làm nút lớn hơn, dễ bấm hơn.
+
+font-size: 1em; → Giữ kích thước chữ phù hợp.
+
+background-color: #007bff; → Đặt màu nền xanh dương.
+
+color: white; → Đặt màu chữ trắng.
+
+cursor: pointer; → Biến con trỏ chuột thành hình bàn tay khi rê vào.
+
+border-radius: 5px; → Bo góc nhẹ.
+
+transition: background 0.3s ease; → Làm hiệu ứng đổi màu mượt hơn.
+
+button:hover { background-color: #0056b3; } → Khi rê chuột vào, đổi màu đậm hơn.
+
+
+
+
+@media (max-width: 600px) → Khi màn hình nhỏ hơn 600px (điện thoại, máy tính bảng).
+
+header h1 { font-size: 1.5em; } → Giảm kích thước tiêu đề cho phù hợp màn hình nhỏ.
+
+.about, .contact { padding: 15px; margin: 10px; } → Giảm khoảng cách để hiển thị tốt hơn.
+
