@@ -70,3 +70,65 @@ header h1 { font-size: 1.5em; } → Giảm kích thước tiêu đề cho phù h
 
 .about, .contact { padding: 15px; margin: 10px; } → Giảm khoảng cách để hiển thị tốt hơn.
 
+
+
+
+
+Github
+Khởi tạo Git trong thư mục này:
+
+bash
+Copy
+Edit
+git init
+Kết nối với GitHub:
+
+bash
+Copy
+Edit
+git remote add origin https://github.com/username/Personal-Website.git
+Thêm tất cả file vào Git:
+
+bash
+Copy
+Edit
+git add .
+Commit (Lưu thay đổi với Git):
+
+bash
+Copy
+Edit
+git commit -m "First commit - Upload Personal Website"
+Đặt nhánh chính thành main (nếu cần):
+
+bash
+Copy
+Edit
+git branch -M main
+Đẩy code lên GitHub:
+
+bash
+Copy
+Edit
+git push -u origin main
+📌 Sau khi xong, kiểm tra trên GitHub, bạn sẽ thấy code của mình.
+
+🔹 Cách 2: Nếu đã có Git trong thư mục
+Nếu bạn đã khởi tạo Git trong thư mục này, chỉ cần:
+
+bash
+Copy
+Edit
+git add .
+git commit -m "Update code"
+git push origin main
+4️⃣ Cập nhật code khi có thay đổi
+Khi bạn chỉnh sửa code và muốn cập nhật lên GitHub:
+
+bash
+Copy
+Edit
+git add .
+git commit -m "Update giao diện"
+git push origin main
+
